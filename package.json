@@ -1,0 +1,26 @@
+{
+  "name": "math-tools",
+  "version": "1.0.0",
+  "description": "MathTools - is a javascript/node.js module providing some advanced mathematics functionalities",
+  "main": "math-tools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianaoana13/math-tools.git"
+  },
+  "keywords": [
+    "math",
+    "tools",
+    "standardDeviation",
+    "adaptiveSimpson",
+    "trapezoidal"
+  ],
+  "author": "Oros Adriana <adrianaoana13@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianaoana13/math-tools/issues"
+  },
+  "homepage": "https://github.com/adrianaoana13/math-tools#readme"
+}
