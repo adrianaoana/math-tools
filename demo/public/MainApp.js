@@ -59,8 +59,7 @@ MainApp.controller('MainController', function($scope, MainAPI, $rootScope,
 			b: 2
 		}
 	};
-	console.log("Hello from the other side ;)");
-
+	
 	$scope.takeTest = function(numbers) {
 		MainAPI.calculateAnswers(numbers).then(function(result) {
 			$scope.numbers = result;

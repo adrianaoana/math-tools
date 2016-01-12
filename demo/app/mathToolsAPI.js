@@ -3,8 +3,7 @@
  */
 var express = require('express');
 var router = express.Router();
-var _ = require( 'underscore' );
-var math = require('../public/lib/math-tools/math-tools.js');
+var math = require('math-tools');
 var func1 = function(x){ return x*x*x + 1 };
 var func2 = function(x){ return Math.sin(x)*x };
 
